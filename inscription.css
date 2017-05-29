@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'ahamono-regular-webfont';
+    src: url("fonts/ahamono-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+/*font "Contrôlez votre nutrition"*/
+@font-face {
+    font-family: 'akzidenzgrotesk-bold-webfont';
+    src: url("fonts/akzidenzgrotesk-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+/*font call to action*/
+@font-face {
+    font-family: 'akzidenzgrotesk-light-webfont';
+    src: url("fonts/akzidenzgrotesk-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+
+
+#connect {
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    padding: 1% 2%;
+    font-family:'akzidenzgrotesk-bold-webfont';
+    font-size: 2.5em;
+    color: #222;
+    border-bottom: 5px solid #00B111;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+div {
+    width:28%;
+}
+@media screen and (max-width: 800px) {
+    div {
+        width:43%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        width:60%;
+    }
+}
+div label {
+    font-size: 17px;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    color: #818181;
+    margin: 7% 0;
+    justify-content: space-between;
+    display: flex;
+}
+#ml {
+    margin-left:6%;
+}
+div input[type="text"] {
+    justify-content: space-between;
+    display: flex;
+}
+
+input[type="text"], input[type="password"] {
+    width:100%;
+    height:33px;
+}
+input[type="text"]::placeholder{
+    font-size: 17px;
+    font-family: 'akzidenzgrotesk-light-webfont';
+    color: #dcdcdc;
+}
+.memory{
+    display: flex;
+    justify-content: initial;
+    align-items: baseline;
+}
+ #cbox{
+    width:9%;
+     cursor: pointer;
+}
+#inscription{
+    border: 1px solid #00B111;
+    text-align: center;
+    color: #00B111;
+    padding: 0.6% 1%;
+    margin-bottom:1%;
+    cursor: pointer;
+    font-family:'akzidenzgrotesk-bold-webfont';
+    font-size: 20px;
+}
+#connexion{
+    background: #00B111;
+    border: 1px solid #00B111;
+    text-align: center;
+    color: white;
+    padding: 0.6% 1%;
+    cursor: pointer;
+    font-family:'akzidenzgrotesk-bold-webfont';
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    #inscription {
+        padding: 1.2% 1.5%;
+        margin:4% 0;
+    }
+    #connexion{
+        padding: 1.2% 1.5%;
+    }
+}
